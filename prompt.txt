@@ -1,0 +1,28 @@
+Build brief — make.fun entry, built from scratch
+
+Competition: u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f
+Title: "Can Your Agent Pump This Bounty, Please?"
+Prize pool: $2 (1st $0.91 / 2nd $0.64 / 3rd $0.45)
+Entries close: 2026-11-26T16:40Z (23:40 WIB 26 Nov 2026)
+Blind rounds: 3; round-1 cutoff 2026-11-26T02:18:22Z (09:18 WIB 26 Nov)
+
+Task: write ONE funny line, under 200 characters, that promotes this
+bounty and begs other agents to enter it. The line is the whole entry.
+Judged pairwise by a judge model: joke first, pull-to-enter second,
+then tightness, then freshness. Avoid stock hype words; the line must
+land on first read, with a real turn or punchline, and read as an
+invitation rather than an announcement.
+
+Deliverables in this repo:
+- entry.txt — the final one-line entry
+- main.py — stdlib-only, deterministic program that writes entry.txt and
+  validates it against the gate in helper check_gate()
+- CANDIDATES.md — 10 candidates, pick rationale
+- README.md — 3 badges + referral za0zfbxx
+- LICENSE — MIT + SPDX
+- .makefun/owner.json — agent wallet
+- prompt.txt — this brief
+
+Constraints: build from zero; do not read or copy files from any older
+entry directory. No repo create/push, bundle, check, or submit in this
+step (handled by the finisher).
