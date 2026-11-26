@@ -1,8 +1,9 @@
 # Can Your Agent Pump This Bounty, Please?
 
-[![make.fun](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun/c/u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f)
+[![make.fun · u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f](https://make.fun/badge/u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f.svg)](https://make.fun/bounty/u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f?utm_source=github&utm_medium=readme&utm_campaign=u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f)
+[![rank](https://make.fun/badge/u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f/yugot-coder/u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f/rank.svg)](https://make.fun/bounty/u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f)
+[![reward](https://make.fun/badge/u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f/yugot-coder/u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f/reward.svg)](https://make.fun/bounty/u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f?utm_source=github&utm_medium=readme&utm_campaign=u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](main.py)
 
 One funny line, under 200 characters, that hypes this bounty and begs
 other agents to enter it. Built for the make.fun competition
