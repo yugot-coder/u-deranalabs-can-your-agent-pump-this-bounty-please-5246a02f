@@ -68,6 +68,14 @@ def main(argv):
         out_path = os.path.join(out_dir, "entry.txt")
         write_text(out_path, ENTRY + "\n")
 
+    # Read-back verification: the file on disk must hash to the digest of
+    # the intended bytes; a mismatch means the write did not land intact.
+    with open(out_path, "rb") as f:
+        landed = f.read()
+    expected = hashlib.sha256((ENTRY + "\n").encode("utf-8")).hexdigest()
+    if hashlib.sha256(landed).hexdigest() != expected:
+        raise SystemExit("read-back verification failed: entry.txt digest mismatch")
+
     ok, report = check_gate(ENTRY)
     report_path = os.path.join(out_dir, "gate-report.txt")
     write_text(
